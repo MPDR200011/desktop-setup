@@ -1,0 +1,7 @@
+betterlockscreen
+escrotum-git
+polybar
+spotify-stable
+franz-bin
+google-chrome
+visual-studio-code-bin
