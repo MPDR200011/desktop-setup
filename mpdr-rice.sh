@@ -1,6 +1,5 @@
 #!/bin/sh
 
-
 echo "Installing packages."
 cat ./package-list.txt | xargs sudo pacman --noconfirm -S
 
@@ -29,13 +28,21 @@ cat ./aur-package-list.txt | xargs trizen -S
 # Installing dein plugin manager for neovim
 echo "Installing dein package manager for neovim."
 curl https://raw.githubusercontent.com/Shougo/dein.vim/master/bin/installer.sh > installer.sh
-sh ./installer.sh ~/.cache/dein
+sh ./installer.sh $HOME/.cache/dein
 rm installer.sh
 
 # VsCode Extansions
 echo "Installing vscode extensions."
 cat ./code-extensions.txt | xargs -L 1 code --install-extension
 
-git clone https://github.com/MPDR200011/dotfiles.git/ ~/
+# Download rice
+git clone https://github.com/MPDR200011/dotfiles.git/ $HOME/
 
-./exec-symlinks.sh
+# Symlink scripts
+sh ./exec-symlinks.sh
+
+# Language servers
+mkdir $HOME/LanguageServers
+git clone https://github.com/georgewfraser/java-language-server $HOME/LanguageServers/
+sh $HOME/LanguageServers/java-language-server/scripts/link_mac.sh
+
