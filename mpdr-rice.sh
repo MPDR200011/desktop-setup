@@ -30,6 +30,7 @@ cat ./aur-package-list.txt | xargs trizen -S
 echo "Installing dein package manager for neovim."
 curl https://raw.githubusercontent.com/Shougo/dein.vim/master/bin/installer.sh > installer.sh
 sh ./installer.sh ~/.cache/dein
+rm installer.sh
 
 # VsCode Extansions
 echo "Installing vscode extensions."
