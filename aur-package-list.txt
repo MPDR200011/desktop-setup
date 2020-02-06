@@ -1,7 +1,9 @@
 betterlockscreen
 escrotum-git
 polybar
-spotify-stable
+spotify
 franz-bin
-google-chrome
 visual-studio-code-bin
+nerd-fonts-complete
+rofi-calc
+slack-desktop

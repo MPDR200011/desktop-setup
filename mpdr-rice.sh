@@ -31,18 +31,6 @@ curl https://raw.githubusercontent.com/Shougo/dein.vim/master/bin/installer.sh >
 sh ./installer.sh $HOME/.cache/dein
 rm installer.sh
 
-# VsCode Extansions
+# VsCode Extensions
 echo "Installing vscode extensions."
 cat ./code-extensions.txt | xargs -L 1 code --install-extension
-
-# Download rice
-git clone https://github.com/MPDR200011/dotfiles.git/ $HOME/
-
-# Symlink scripts
-sh ./exec-symlinks.sh
-
-# Language servers
-mkdir $HOME/LanguageServers
-git clone https://github.com/georgewfraser/java-language-server $HOME/LanguageServers/
-sh $HOME/LanguageServers/java-language-server/scripts/link_mac.sh
-

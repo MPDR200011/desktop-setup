@@ -6,7 +6,8 @@ lightdm-gtk-greeter
 pasystray
 network-manager-applet
 nm-connection-editor
-compton
+networkmanager-pptp
+picom
 acpilight
 playerctl
 rofi
@@ -15,4 +16,9 @@ i3-gaps
 neovim
 dunst
 ranger
-xfce4-terminal
+alacritty
+net-tools
+obs-studio
+pasystray
+discord
+chromium
