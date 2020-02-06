@@ -17,7 +17,6 @@ neovim
 dunst
 ranger
 alacritty
-net-tools
 obs-studio
 pasystray
 discord
