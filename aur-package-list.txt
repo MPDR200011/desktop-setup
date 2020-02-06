@@ -8,3 +8,4 @@ nerd-fonts-complete
 rofi-calc
 slack-desktop
 ttf-jetbrains-mono
+ttf-material-design-icons

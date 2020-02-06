@@ -1,23 +1,40 @@
+# Development
+base-devel
+cmake
+clang
+ccache
+neovim
+
+# Desktop env
 xorg
-xorg-init
 xorg-server
 lightdm
 lightdm-gtk-greeter
-pasystray
-network-manager-applet
-nm-connection-editor
-networkmanager-pptp
 picom
 acpilight
 playerctl
 rofi
 feh
 i3-gaps
-neovim
-dunst
-ranger
+thunar
 alacritty
+dunst
 obs-studio
-pasystray
 discord
 chromium
+
+# Audio
+pulseaudio
+pasystray
+pavucontrol
+
+
+# Network
+network-manager-applet
+nm-connection-editor
+networkmanager-pptp
+
+# Misc
+fakeroot
+noto-fonts
+gucharmap
