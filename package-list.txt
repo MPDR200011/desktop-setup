@@ -22,6 +22,7 @@ dunst
 obs-studio
 discord
 chromium
+tlp
 
 # Audio
 pulseaudio
