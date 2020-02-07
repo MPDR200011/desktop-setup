@@ -2,10 +2,9 @@ betterlockscreen
 escrotum-git
 polybar
 spotify
-franz-bin
 visual-studio-code-bin
 nerd-fonts-complete
 rofi-calc
 slack-desktop
 ttf-jetbrains-mono
-ttf-material-design-icons
+ttf-material-design-icons-git

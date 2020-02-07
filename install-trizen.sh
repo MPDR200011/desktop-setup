@@ -11,4 +11,8 @@ rm -rf trizen
 
 echo "Installing AUR packages."
 trizen -S trizen
-cat ./aur-package-list.txt | xargs trizen -S
+
+for PACKAGE in $(grep -e "^[^#\s]" ./aur-package-list.txt);
+do
+    trizen -S $PACKAGE
+done

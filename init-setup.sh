@@ -1,7 +1,7 @@
 #!/bin/sh
 
 echo "Installing packages."
-cat ./package-list.txt | xargs sudo pacman --noconfirm -S
+grep -e "^[^#\s]" ./package-list.txt | xargs sudo pacman --noconfirm -S
 
 echo "Enabling lightdm"
 systemctl enable lightdm
