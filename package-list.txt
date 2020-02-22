@@ -23,6 +23,7 @@ obs-studio
 discord
 chromium
 tlp
+unzip
 
 # Audio
 pulseaudio
