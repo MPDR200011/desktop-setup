@@ -1,5 +1,4 @@
 betterlockscreen
-escrotum-git
 polybar
 spotify
 visual-studio-code-bin
@@ -8,3 +7,4 @@ rofi-calc
 slack-desktop
 ttf-jetbrains-mono
 ttf-material-design-icons-git
+jetbrains-toolbox
