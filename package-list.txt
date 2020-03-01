@@ -34,6 +34,7 @@ flameshot
 cups
 fish
 htop
+rsync
 
 # Audio
 pulseaudio
