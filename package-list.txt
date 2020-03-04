@@ -9,32 +9,48 @@ docker
 docker-compose
 gradle
 openssh
+jetbrains-toolbox
+visual-studio-code-bin
+
 
 # Desktop env
 xorg
 xorg-server
 lightdm
 lightdm-gtk-greeter
+i3-gaps
+polybar
 picom
+betterlockscreen
+
 acpilight
 playerctl
 rofi
-feh
-i3-gaps
-thunar
-alacritty
 arandr
 dunst
-obs-studio
-discord
-firefox
 tlp
 unzip
-flameshot
 cups
 fish
 htop
 rsync
+rofi-calc
+
+thunar
+alacritty
+feh
+obs-studio
+discord
+firefox
+flameshot
+thunderbird
+spotify
+slack-desktop
+
+ttf-jetbrains-mono
+nerd-fonts-complete
+ttf-material-design-icons-git
+
 
 # Audio
 pulseaudio
@@ -46,6 +62,7 @@ pavucontrol
 network-manager-applet
 nm-connection-editor
 networkmanager-pptp
+
 
 # Misc
 fakeroot

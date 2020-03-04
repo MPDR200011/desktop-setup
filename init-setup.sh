@@ -1,13 +1,18 @@
 #!/bin/sh
+echo "Installing yay"
+sudo pacman -S git
+git clone https://aur.archlinux.org/yay.git
+cd yay
+makepkg -si
+cd ..
+rm -rf yay
 
 echo "Installing packages."
-grep -e "^[^#\s]" ./package-list.txt | xargs sudo pacman --noconfirm -S
+yay --noconfirm -S yay
+
+grep -e "^[^#\s]" ./package-list.txt | \ 
+    xargs yay --noconfirm --batchinstall -S
 
 echo "Enabling lightdm"
 systemctl enable lightdm
-
-# Intall zsh and oh-my-zsh
-echo "Installing zsh."
-sudo pacman --noconfirm -S zsh
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
-chsh -s /bin/zsh
+chsh -s /bin/fish
