@@ -15,4 +15,10 @@ grep -e "^[^#\s]" ./package-list.txt | \
 
 echo "Enabling lightdm"
 systemctl enable lightdm
+
+#Cahnge shell to fish
 chsh -s /bin/fish
+
+# OMF install
+curl -L https://get.oh-my.fish | fish
+omf install https://github.com/jhillyerd/plugin-git
