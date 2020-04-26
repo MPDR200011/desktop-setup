@@ -3,6 +3,7 @@ base-devel
 cmake
 clang
 ccache
+ctags
 neovim
 ccls-git
 docker
@@ -22,6 +23,7 @@ i3-gaps
 polybar
 picom
 betterlockscreen
+zenity
 
 acpilight
 playerctl
@@ -35,6 +37,7 @@ fish
 htop
 rsync
 rofi-calc
+ntp
 
 thunar
 alacritty
@@ -48,8 +51,10 @@ spotify
 slack-desktop
 
 ttf-jetbrains-mono
-nerd-fonts-complete
 ttf-material-design-icons-git
+noto-fonts
+noto-fonts-emoji
+noto-fonts-cjk
 
 
 # Audio
@@ -66,6 +71,6 @@ networkmanager-pptp
 
 # Misc
 fakeroot
-noto-fonts
 gucharmap
 lxappearance
+reflector
