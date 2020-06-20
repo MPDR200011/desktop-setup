@@ -22,3 +22,7 @@ chsh -s /bin/fish
 # OMF install
 curl -L https://get.oh-my.fish | fish
 omf install https://github.com/jhillyerd/plugin-git
+
+# Install libgnome-keyring for git
+cd /usr/share/git/credential/gnome-keyring
+sudo make

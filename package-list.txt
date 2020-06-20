@@ -5,25 +5,34 @@ clang
 ccache
 ctags
 neovim
-ccls-git
 docker
 docker-compose
 gradle
 openssh
 jetbrains-toolbox
 visual-studio-code-bin
+fzf
+ripgrep
 
 
 # Desktop env
 xorg
 xorg-server
+xorg-xinit
+xtitle
 lightdm
 lightdm-gtk-greeter
 i3-gaps
+bspwm
+sxhkd
 polybar
 picom
 betterlockscreen
 zenity
+openrazer-meta
+polychromatic
+zathura
+zathura-pdf-mupdf
 
 acpilight
 playerctl
@@ -36,8 +45,10 @@ cups
 fish
 htop
 rsync
-rofi-calc
+menu-calc
 ntp
+gnome-keyring
+libgnome-keyring
 
 thunar
 alacritty
@@ -74,3 +85,4 @@ fakeroot
 gucharmap
 lxappearance
 reflector
+linux-headers
