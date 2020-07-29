@@ -6,6 +6,9 @@ DavidAnson.vscode-markdownlint
 dbaeumer.vscode-eslint
 dracula-theme.theme-dracula
 eamodio.gitlens
+Equinusocio.vsc-community-material-theme
+Equinusocio.vsc-material-theme
+equinusocio.vsc-material-theme-icons
 esbenp.prettier-vscode
 formulahendry.code-runner
 GrapeCity.gc-excelviewer

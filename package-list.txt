@@ -55,7 +55,7 @@ alacritty
 feh
 obs-studio
 discord
-firefox
+brave-bin
 flameshot
 thunderbird
 spotify
