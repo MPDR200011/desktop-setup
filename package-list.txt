@@ -31,8 +31,8 @@ betterlockscreen
 zenity
 openrazer-meta
 polychromatic
-zathura
-zathura-pdf-mupdf
+bluez
+blueman
 
 acpilight
 playerctl
@@ -51,11 +51,14 @@ gnome-keyring
 libgnome-keyring
 
 thunar
+tumbler
 alacritty
 feh
 obs-studio
 discord
-brave-bin
+vivaldi
+vivaldi-ffmpeg-codecs
+vivaldi-update-ffmpeg-hook
 flameshot
 thunderbird
 spotify
