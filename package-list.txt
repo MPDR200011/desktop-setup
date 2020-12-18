@@ -56,9 +56,8 @@ alacritty
 feh
 obs-studio
 discord
-vivaldi
-vivaldi-ffmpeg-codecs
-vivaldi-update-ffmpeg-hook
+chromium
+brave-bin
 flameshot
 thunderbird
 spotify
