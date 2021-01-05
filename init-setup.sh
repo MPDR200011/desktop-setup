@@ -16,7 +16,7 @@ grep -e "^[^#\s]" ./package-list.txt | \
 echo "Enabling lightdm"
 systemctl enable lightdm
 
-#Cahnge shell to fish
+# Change shell to fish
 chsh -s /bin/fish
 
 # OMF install

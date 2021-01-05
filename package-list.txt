@@ -52,7 +52,7 @@ libgnome-keyring
 
 thunar
 tumbler
-alacritty
+termite
 feh
 obs-studio
 discord
