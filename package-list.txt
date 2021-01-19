@@ -63,12 +63,13 @@ thunderbird
 spotify
 slack-desktop
 
+ttf-ms-fonts
+ttf-mac-fonts
 ttf-jetbrains-mono
 ttf-material-design-icons-git
 noto-fonts
 noto-fonts-emoji
 noto-fonts-cjk
-
 
 # Audio
 pulseaudio
@@ -88,3 +89,4 @@ gucharmap
 lxappearance
 reflector
 linux-headers
+stow
