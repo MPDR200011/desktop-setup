@@ -4,7 +4,6 @@ cmake
 clang
 ccache
 ctags
-neovim
 docker
 docker-compose
 gradle
@@ -13,7 +12,8 @@ jetbrains-toolbox
 visual-studio-code-bin
 fzf
 ripgrep
-
+snap
+direnv
 
 # Desktop env
 xorg
@@ -22,7 +22,8 @@ xorg-xinit
 xtitle
 lightdm
 lightdm-gtk-greeter
-i3-gaps
+#i3-gaps
+herbstluftwm
 bspwm
 sxhkd
 polybar
