@@ -35,6 +35,7 @@ openrazer-meta
 polychromatic
 bluez
 blueman
+ueberzug
 
 acpilight
 playerctl
@@ -52,7 +53,7 @@ ntp
 gnome-keyring
 libgnome-keyring
 
-thunar
+nautilus
 tumbler
 alacritty
 feh
@@ -64,6 +65,7 @@ flameshot
 thunderbird
 spotify
 slack-desktop
+github-cli
 
 ttf-ms-fonts
 ttf-mac-fonts
@@ -72,6 +74,8 @@ ttf-material-design-icons-git
 noto-fonts
 noto-fonts-emoji
 noto-fonts-cjk
+arc-gtk-theme
+adapta-gtk-theme
 
 # Audio
 pulseaudio
