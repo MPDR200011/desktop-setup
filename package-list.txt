@@ -23,8 +23,8 @@ xorg-xinit
 xtitle
 lightdm
 lightdm-gtk-greeter
-#i3-gaps
-herbstluftwm
+i3-gaps
+#herbstluftwm
 bspwm
 sxhkd
 polybar
