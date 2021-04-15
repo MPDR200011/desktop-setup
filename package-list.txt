@@ -74,6 +74,11 @@ ttf-material-design-icons-git
 noto-fonts
 noto-fonts-emoji
 noto-fonts-cjk
+nerd-fonts-fira-code 2.1.0-2
+nerd-fonts-mononoki 2.1.0-2
+nerd-fonts-source-code-pro 2.1.0-2
+nerd-fonts-terminus 2.1.0-4
+nerd-fonts-ubuntu-mono 2.1.0-2
 arc-gtk-theme
 adapta-gtk-theme
 
