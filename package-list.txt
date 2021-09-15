@@ -53,6 +53,7 @@ ntp
 gnome-keyring
 libgnome-keyring
 
+nnn
 nautilus
 tumbler
 alacritty
