@@ -13,8 +13,7 @@ yay --noconfirm -S yay
 # sudo pacman -S grep
 grep -e "^[^#\s]" ./package-list.txt | xargs yay --noconfirm --batchinstall -S
 
-echo "Enabling lightdm"
-systemctl enable lightdm
+./enable-services.sh
 
 # Change shell to fish
 chsh -s /bin/fish
