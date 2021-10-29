@@ -10,8 +10,8 @@ rm -rf yay
 echo "Installing packages."
 yay --noconfirm -S yay
 
-grep -e "^[^#\s]" ./package-list.txt | \ 
-    xargs yay --noconfirm --batchinstall -S
+# sudo pacman -S grep
+grep -e "^[^#\s]" ./package-list.txt | xargs yay --noconfirm --batchinstall -S
 
 echo "Enabling lightdm"
 systemctl enable lightdm

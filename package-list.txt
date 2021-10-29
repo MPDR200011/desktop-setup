@@ -13,7 +13,6 @@ visual-studio-code-bin
 fzf
 ripgrep
 snap
-direnv
 ninja
 
 # Desktop env
@@ -35,9 +34,8 @@ openrazer-meta
 polychromatic
 bluez
 blueman
-ueberzug
 
-acpilight
+#acpilight
 playerctl
 rofi
 arandr
@@ -75,11 +73,11 @@ ttf-material-design-icons-git
 noto-fonts
 noto-fonts-emoji
 noto-fonts-cjk
-nerd-fonts-fira-code 2.1.0-2
-nerd-fonts-mononoki 2.1.0-2
-nerd-fonts-source-code-pro 2.1.0-2
-nerd-fonts-terminus 2.1.0-4
-nerd-fonts-ubuntu-mono 2.1.0-2
+nerd-fonts-fira-code
+nerd-fonts-mononoki
+nerd-fonts-source-code-pro
+nerd-fonts-terminus
+nerd-fonts-ubuntu-mono
 arc-gtk-theme
 adapta-gtk-theme
 
@@ -102,3 +100,12 @@ lxappearance
 reflector
 linux-headers
 stow
+
+#GPU stuff
+nvidia
+nvidia-prime
+optimus-manager
+mesa
+lib32-mesa
+xf86-video-amdgpu
+
