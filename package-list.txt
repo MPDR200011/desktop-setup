@@ -14,6 +14,7 @@ fzf
 ripgrep
 snap
 ninja
+tmux
 
 # Desktop env
 xorg
@@ -23,8 +24,6 @@ xtitle
 lightdm
 lightdm-gtk-greeter
 i3-gaps
-#herbstluftwm
-bspwm
 sxhkd
 polybar
 picom
@@ -41,6 +40,8 @@ rofi
 arandr
 dunst
 tlp
+tlpui-git
+tlp-rdw
 unzip
 cups
 fish
